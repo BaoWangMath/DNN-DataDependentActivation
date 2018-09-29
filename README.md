@@ -2,7 +2,7 @@
 Code for the paper: https://arxiv.org/pdf/1802.00168.pdf
 
 ## External dependency: pyflann (https://github.com/primetang/pyflann)
-Place the pyflann library to your current directory
+Place the pyflann library in your current directory
 
 ## Usage
 ### Step 1. Train the deep neural nets with softmax and WNLL activation functions
