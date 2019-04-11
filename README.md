@@ -15,3 +15,6 @@ python Fool_StandardDNN.py -method fgsm -epsilon 0.02
 python Fool_WNLLDNN.py -method fgsm -epsilon 0.02
 
 The method and epsilon are adjustable, where we support fgsm, ifgsm, cwl2 attacks
+
+
+# The updated code will be pushed.
