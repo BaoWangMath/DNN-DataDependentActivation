@@ -4,6 +4,15 @@ This repository consists PyTorch code for deep neural networks with graph interp
 ## External dependency: pyflann (https://github.com/primetang/pyflann)
 Place the pyflann library in your current directory to replace the pyflann folder
 
+### Cifar10-Natural
+Code for reproducing results of naturally trained ResNets on the Cifar10
+
+### Cifar10-Robust
+Code for reproducing results of PGD adversarial training for ResNets on the Cifar10
+
+### MNIST-Robust
+Code for reproducing results of PGD adversarial training for Small-CNN on the MNIST
+
 If you find this work useful and use it on you own research, please cite our [paper](https://papers.nips.cc/paper/7355-deep-neural-nets-with-interpolating-function-as-output-activation.pdf)
 
 ```
