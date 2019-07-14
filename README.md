@@ -1,20 +1,40 @@
 # DNN-DataDependentActivation
-Code for the paper: https://arxiv.org/pdf/1802.00168.pdf
+This repository consists PyTorch code for deep neural networks with graph interpolating function as output activation function
 
 ## External dependency: pyflann (https://github.com/primetang/pyflann)
-Place the pyflann library in your current directory
+Place the pyflann library in your current directory to replace the pyflann folder
 
-## Usage
-### Step 1. Train the deep neural nets with softmax and WNLL activation functions
-python TrainStandardDNN.py
-python TrainWNLLDNN.py
+If you find this work useful and use it on you own research, please cite our [paper](https://papers.nips.cc/paper/7355-deep-neural-nets-with-interpolating-function-as-output-activation.pdf)
 
-### Step 2. Attack the trained deep neural nets
-python Fool_StandardDNN.py -method fgsm -epsilon 0.02
+```
+@incollection{NIPS2018_7355,
+title = {Deep Neural Nets with Interpolating Function as Output Activation},
+author = {Wang, Bao and Luo, Xiyang and Li, Zhen and Zhu, Wei and Shi, Zuoqiang and Osher, Stanley},
+booktitle = {Advances in Neural Information Processing Systems 31},
+editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
+pages = {743--753},
+year = {2018},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/7355-deep-neural-nets-with-interpolating-function-as-output-activation.pdf}
+}
+```
 
-python Fool_WNLLDNN.py -method fgsm -epsilon 0.02
+And the longer version is
 
-The method and epsilon are adjustable, where we support fgsm, ifgsm, cwl2 attacks
+```
+@ARTICLE{Wang:2019Interpolation,
+       author = {{B. Wang and S. Osher},
+        title = "{Graph Interpolating Activation Improves Both Natural and Robust Accuracies in Data-Efficient Deep Learning}",
+      journal = {arXiv e-prints},
+         year = "2019",
+        month = "Jul",
+          eid = {},
+        pages = {},
+archivePrefix = {arXiv},
+       eprint = {},
+ primaryClass = {stat.ML}
+}
+```
 
-
-# The updated code will be pushed.
+## Dependence
+PyTorch 0.4.1
