@@ -19,7 +19,7 @@ url = {http://papers.nips.cc/paper/7355-deep-neural-nets-with-interpolating-func
 }
 ```
 
-And the longer version is
+And the longer version is available at
 
 ```
 @ARTICLE{Wang:2019Interpolation,
