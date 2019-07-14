@@ -3,7 +3,7 @@
 WNLL interpolation.
 External dependencies: pyflann, scipy
 
-Author: Bao Wang, Zuoqiang Shi, Stanley Osher
+Author: Bao Wang
     Department of Mathematics, UCLA
 Email: wangbaonj@gmail.com
 Date: Nov 11, 2017
