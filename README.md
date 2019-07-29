@@ -37,8 +37,8 @@ And the longer version is available at
       journal = {arXiv e-prints},
          year = "2019",
         month = "Jul",
-          eid = {},
-        pages = {},
+          eid = {arXiv:1907.06800},
+        pages = {arXiv:1907.06800},
 archivePrefix = {arXiv},
        eprint = {},
  primaryClass = {stat.ML}
