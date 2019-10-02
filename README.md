@@ -32,7 +32,7 @@ And the longer version is available at
 
 ```
 @ARTICLE{Wang:2019Interpolation,
-       author = {{B. Wang and S. Osher},
+       author = {B. Wang and S. Osher},
         title = "{Graph Interpolating Activation Improves Both Natural and Robust Accuracies in Data-Efficient Deep Learning}",
       journal = {arXiv e-prints},
          year = "2019",
